@@ -10,8 +10,13 @@ html {
 }
 
 body {
-  font-size: 16px;
+  font-size: 19px;
+  font-weight: 300;
   margin-bottom: 98px;
+}
+
+h2 {
+  margin-top: 40px;
 }
 
 h2 sup, p sup {
