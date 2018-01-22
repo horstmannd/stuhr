@@ -137,6 +137,14 @@ h2 sup {
   right: 90px;
 }
 
+.jumbotron-contact-hero {
+  background: url("../images/contact-hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
 .btn-primary {
   background-color: #fdb30d;
   border-color: #b37f0c;
