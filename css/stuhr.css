@@ -10,7 +10,12 @@ html {
 }
 
 body {
+  font-size: 16px;
   margin-bottom: 98px;
+}
+
+h2 sup, p sup {
+  top: -0.3em;
 }
 
 h2 sup {
@@ -118,6 +123,20 @@ h2 sup {
   right: 90px;
 }
 
+.jumbotron-glucose-hero {
+  background: url("../images/glucose-hero.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.jumbotron-glucose-hero img {
+  bottom: 30px;
+  position: absolute;
+  right: 90px;
+}
+
 .btn-primary {
   background-color: #fdb30d;
   border-color: #b37f0c;
@@ -140,7 +159,11 @@ h2 sup {
     font-size: 2rem;
   }
 
-  .jumbotron-anion-hero img {
+  .navbar-nav {
+    margin-top: 75px;
+  }
+
+  .jumbotron-anion-hero img, .jumbotron-glucose-hero img {
     bottom: 15px;
     right: 15px;
   }
@@ -150,10 +173,6 @@ h2 sup {
 
   body {
     margin-bottom: 118px;
-  }
-
-  .navbar-nav {
-    margin-top: 75px;
   }
 
   .footer {
