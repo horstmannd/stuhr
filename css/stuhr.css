@@ -93,6 +93,7 @@ h2 sup {
   box-shadow: none;
   -webkit-box-shadow: none;
   overflow: hidden;
+  position: relative;
 }
 
 .jumbotron-home-hero {
@@ -108,14 +109,13 @@ h2 sup {
   background-size: cover;
   background-position: center;
   color: #fff;
-  position: relative;
   text-shadow: 1px 1px 1px #000;
 }
 
 .jumbotron-anion-hero img {
   bottom: 30px;
   position: absolute;
-  right: 30px;
+  right: 90px;
 }
 
 .btn-primary {
@@ -133,6 +133,17 @@ h2 sup {
   position: absolute;
   text-align: center;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  h1 sup {
+    font-size: 2rem;
+  }
+
+  .jumbotron-anion-hero img {
+    bottom: 15px;
+    right: 15px;
+  }
 }
 
 @media (max-width: 632px) {
@@ -165,4 +176,5 @@ h2 sup {
   h1 sup {
     font-size: 3.5rem;
   }
+
 }
