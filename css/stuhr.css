@@ -176,12 +176,17 @@ h2 sup {
 }
 
 @media (max-width: 768px) {
+  
   h1 sup {
     font-size: 2rem;
   }
 
   .navbar-nav {
     margin-top: 75px;
+  }
+
+  .jumbotron-anion-hero h1, .jumbotron-glucose-hero h1 {
+    padding: 30px 0;
   }
 
   .jumbotron-anion-hero img, .jumbotron-glucose-hero img {
