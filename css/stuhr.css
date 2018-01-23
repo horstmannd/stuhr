@@ -163,6 +163,11 @@ h2 sup {
   font-size: 1.2em;
 }
 
+a[href^="tel"]{
+  color:inherit;
+  text-decoration:none;
+}
+
 .footer {
   background-color: #ed1c24;
   bottom: 0;
