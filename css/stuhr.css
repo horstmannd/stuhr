@@ -150,9 +150,17 @@ h2 sup {
   text-shadow: 1px 1px 1px #000;
 }
 
+.home-logo {
+  margin-top: 25px;
+}
+
 .btn-primary {
   background-color: #fdb30d;
   border-color: #b37f0c;
+}
+
+.panel-title {
+  font-size: 1.2em;
 }
 
 .footer {
