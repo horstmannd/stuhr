@@ -211,6 +211,12 @@ a[href^="tel"]{
     margin-bottom: 118px;
   }
 
+  .jumbotron-anion-hero img, .jumbotron-glucose-hero img {
+    bottom: 10px;
+    right: 15px;
+    width: 110px;
+  }
+
   .footer {
     height: 88px;
   }
