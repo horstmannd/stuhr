@@ -201,6 +201,7 @@ a[href^="tel"]{
   .jumbotron-anion-hero img, .jumbotron-glucose-hero img {
     bottom: 15px;
     right: 15px;
+    width: 150px;
   }
 }
 
