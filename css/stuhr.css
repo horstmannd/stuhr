@@ -187,7 +187,11 @@ a[href^="tel"]{
   }
 
   .navbar-nav {
-    margin-top: 75px;
+    margin-top: 45px;
+  }
+
+  .navbar-brand img {
+    height: 60px;
   }
 
   .jumbotron-anion-hero h1, .jumbotron-glucose-hero h1 {
