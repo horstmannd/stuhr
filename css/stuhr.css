@@ -11,7 +11,7 @@ html {
 
 body {
   font-size: 19px;
-  font-weight: 300;
+  font-weight: 400;
   margin-bottom: 98px;
 }
 
@@ -101,6 +101,12 @@ h2 sup {
 .navbar-default .navbar-nav > .active > a:hover {
   background-color: #ed1c24;
   color: #fff;
+}
+
+.container-fluid > .jumbotron {
+  border-radius: 0;
+  margin-left: -15px;
+  margin-right: -15px;
 }
 
 .jumbotron {
